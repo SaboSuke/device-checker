@@ -16,7 +16,7 @@ Name | Returns | Explanation
 ---- | ------- | -----------
   `isMobileOrTablet` | `Boolean` | Check if the current device is mobile or tablet.
   `isMobile` | `Boolean` | Check if the current device is mobile.
-  `detectMobile` | `Boolean` | Detect a mobile device based on a list of devices from `MOBILE_DEVICES` constant or passed in.
+  `detectMobile` | `Boolean` | Detect a mobile device based on a list of devices from the `MOBILE_DEVICES` constant or an array of devices of your chosing.
 
 ## Usage
 
@@ -34,7 +34,6 @@ const checker = new DeviceChecker({
 if(window.isMobileOrTablet){
     // do something
 }
-
 
 ```
 
