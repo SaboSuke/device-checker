@@ -18,6 +18,26 @@ Name | Returns | Explanation
   `isMobile` | `Boolean` | Check if the current device is mobile.
   `detectMobile` | `Boolean` | Detect a mobile device based on a list of devices from `MOBILE_DEVICES` constant or passed in.
 
+## Usage
+
+```javascript
+
+// basic usage
+const isMobile = new DeviceChecker().isMobile();
+const isMobileOrTablet = new DeviceChecker().isMobileOrTablet();
+
+// you can also add the methods to the window object like so
+const checker = new DeviceChecker({
+    addToWindow: true
+});
+
+if(window.isMobileOrTablet){
+    // do something
+}
+
+
+```
+
 ## Contributing
 
 If you have anything to contribute, or functionality that you lack - you are more than welcome to participate in this!
