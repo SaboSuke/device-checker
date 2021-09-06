@@ -1,5 +1,7 @@
 # Device Checker
 
+[![Software Version](https://img.shields.io/badge/device--checker-v1.0.0-green)](https://github.com/SaboSuke/device-checker)
+
 A simple library to check if the current device is mobile or tablet.
 
 ## Options
