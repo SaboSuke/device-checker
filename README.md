@@ -13,7 +13,7 @@ Name | Type | Default | Explanation
 ## Methods
 
 Name | Returns | Explanation
----- | ---- | ------- | -----------
+---- | ------- | -----------
   `isMobileOrTablet` | `Boolean` | Check if the current device is mobile or tablet.
   `isMobile` | `Boolean` | Check if the current device is mobile.
   `detectMobile` | `Boolean` | Detect a mobile device based on a list of devices from `MOBILE_DEVICES` constant or passed in.
