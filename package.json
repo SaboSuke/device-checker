@@ -1,0 +1,22 @@
+{
+  "name": "device-checker",
+  "version": "1.0.0",
+  "description": "A simple library to check if the current device is mobile or tablet.",
+  "main": "device-checker.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SaboSuke/device-checker.git"
+  },
+  "keywords": [
+    "device",
+    "device-cheker",
+    "mobile-checker",
+    "tablet-checker"
+  ],
+  "author": "Essam Abed",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SaboSuke/device-checker/issues"
+  },
+  "homepage": "https://github.com/SaboSuke/device-checker#readme"
+}
